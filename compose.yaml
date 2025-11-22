@@ -17,7 +17,7 @@ services:
     ports:
       - "83:80"
     deploy:
-      replicas: 3
+      replicas: 6
   dth:
     image: prasanthmadullapalle/paytmdth:latest
     ports:
